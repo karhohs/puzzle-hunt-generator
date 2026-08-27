@@ -1,0 +1,19 @@
+[project]
+name = "puzzle-hunt-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "copilot-swe-agent[bot]", email = "198982749+Copilot@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "marimo>=0.24.0",
+]
+
+[project.scripts]
+puzzle-hunt-generator = "puzzle_hunt_generator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
